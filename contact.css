@@ -1,0 +1,84 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY BACKGROUND */
+body{
+    background-image: url("./113852806-blurred-image-of-shoes-department-store-with-bokeh-for-background-usage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    text-align:center;
+}
+
+/* HEADING */
+h1{
+    font-size:48px;
+    color:blue;
+    text-decoration: underline;
+    margin-bottom:20px;
+    text-shadow:2px 2px 5px black;
+}
+
+/* CONTENT BOX */
+#demo{
+    max-width:700px;
+    background: bisque;
+    border-radius:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.4);
+    padding:25px;
+}
+
+/* TEXT */
+p{
+    font-size:18px;
+    line-height:1.7;
+    color:black;
+    font-weight:600;
+    margin-bottom:15px;
+    
+}
+
+/* 📱 TABLET */
+@media (max-width:900px){
+    h1{
+        font-size:36px;
+    }
+}
+
+/* 📱 MOBILE */
+@media (max-width:600px){
+
+    h1{
+        font-size:28px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    #demo{
+        padding:18px;
+    }
+}
+.info{
+    height: 600px;
+    width: 700px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 4px 5px 7px 8px black;
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
